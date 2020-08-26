@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.11.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="FluentAssertions" Version="5.10.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Specs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Calculadora\Calculadora.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+    <None Include="**/*" />
+  </ItemGroup>
+</Project>
