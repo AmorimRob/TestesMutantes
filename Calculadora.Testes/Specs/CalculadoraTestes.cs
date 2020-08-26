@@ -41,23 +41,6 @@ namespace Calculadora.Testes.Specs
             resultado.Should().Be(resultadoEsperado);
         }
 
-        //[Test]
-        //public void NãoDeveAplicarDescontoQuandoValorTotalForIgualACem()
-        //{
-        //    var produtos = new List<Produto> {
-        //        new Produto { Nome = "Óculos", Valor = 50m },
-        //        new Produto { Nome = "Carteira", Valor = 50m }
-        //    };
-
-        //    var resultadoEsperado = 100m;
-
-        //    var calculadora = new Calculadora();
-
-        //    var resultado = calculadora.CalcularTotalDoPedido(produtos);
-
-        //    resultado.Should().Be(resultadoEsperado);
-        //}
-
         [Test]
         public void DeveAplicarDescontoDe20ReaisQuandoCompraTiverMaisDe5ItensEValorForMaiorQueVinte()
         {
@@ -78,5 +61,22 @@ namespace Calculadora.Testes.Specs
 
             resultado.Should().Be(resultadoEsperado);
         }
+
+        //[Test]
+        //public void NãoDeveAplicarDescontoQuandoValorTotalForIgualACem()
+        //{
+        //    var produtos = new List<Produto> {
+        //        new Produto { Nome = "Óculos", Valor = 50m },
+        //        new Produto { Nome = "Carteira", Valor = 50m }
+        //    };
+
+        //    var resultadoEsperado = 100m;
+
+        //    var calculadora = new Calculadora();
+
+        //    var resultado = calculadora.CalcularTotalDoPedido(produtos);
+
+        //    resultado.Should().Be(resultadoEsperado);
+        //}
     }
 }
