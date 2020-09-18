@@ -62,21 +62,21 @@ namespace Calculadora.Testes.Specs
             resultado.Should().Be(resultadoEsperado);
         }
 
-        [Test]
-        public void NãoDeveAplicarDescontoQuandoValorTotalForIgualACem()
-        {
-            var produtos = new List<Produto> {
-                new Produto { Nome = "Óculos", Valor = 50m },
-                new Produto { Nome = "Carteira", Valor = 50m }
-            };
+        //[Test]
+        //public void NãoDeveAplicarDescontoQuandoValorTotalForIgualACem()
+        //{
+        //    var produtos = new List<Produto> {
+        //        new Produto { Nome = "Óculos", Valor = 50m },
+        //        new Produto { Nome = "Carteira", Valor = 50m }
+        //    };
 
-            var resultadoEsperado = 100m;
+        //    var resultadoEsperado = 100m;
 
-            var calculadora = new Calculadora();
+        //    var calculadora = new Calculadora();
 
-            var resultado = calculadora.CalcularTotalDoPedido(produtos);
+        //    var resultado = calculadora.CalcularTotalDoPedido(produtos);
 
-            resultado.Should().Be(resultadoEsperado);
-        }
+        //    resultado.Should().Be(resultadoEsperado);
+        //}
     }
 }
