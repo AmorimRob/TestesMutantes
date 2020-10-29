@@ -9,7 +9,7 @@
         "log-file": true,
         "timeout-ms": 10000,
         "project-file": "Calculadora/Calculadora.csproj",
-        "max-concurrent-test-runners": 4,
+        "max-concurrent-test-runners": 2,
         "threshold-high": 80,
         "threshold-low": 70,
         "threshold-break": 60,
